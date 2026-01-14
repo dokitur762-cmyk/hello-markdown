@@ -5,7 +5,7 @@
 # 二、Linux基础命令行
 * ls：以平埔的形式，列出当前工作目录的内容
 
-  ![13](https://github.com/dokitur762-cmyk/hello-markdown/blob/main/images/13.png)
+  ![image-20260113142156100](C:\Users\fgvjv\AppData\Roaming\Typora\typora-user-images\image-20260113142156100.png)
 
 * ls /：查看根目录的内容
 
@@ -63,7 +63,7 @@
 
   ![image-20260113174611572](C:\Users\fgvjv\AppData\Roaming\Typora\typora-user-images\image-20260113174611572.png)
 
-* 
+* ![image-20260114111511888](images/image-20260114111511888.png)
 
 
 
@@ -80,6 +80,5 @@
 * 要将权限去掉而不改变其他已存在的权限呢？例如要拿掉全部人的可执行权限
 
   ![image-20260113114215544](C:\Users\fgvjv\AppData\Roaming\Typora\typora-user-images\image-20260113114215544.png)
-
 
 * 
