@@ -119,14 +119,6 @@
 
 * **ctrl**+**l**：清屏快捷键
 
-* cat 1.test：查看文件内容
-
-  ![image-20260114155022734](images/image-20260114155022734.png)
-
-* more /etc/services：查看文件内容，可翻页查看，按【空格】翻页，按【q】退出查看
-
-  ![image-20260114155357486](images/image-20260114155357486.png)
-
 * cp 1.test 2.test：复制文件，将1.test的内容复制到2.test
 
   ![image-20260114160212736](images/image-20260114160212736.png)
@@ -149,10 +141,6 @@
 
     ![image-20260121160439356](images/image-20260121160439356.png)
 
-* mv 2.test Desktop/：将Home目录下的2.test文件移动到Desktop中，移动文件夹是一样的操作
-
-  ![image-20260114160924561](images/image-20260114160924561.png)
-
 * tree：树状图列出文件目录格式
 
   * 需要提前安装tree，执行命令sudo apt-get install tree
@@ -163,7 +151,51 @@
 
   ![image-20260120144343596](images/image-20260120144343596.png)
 
+* mv 2.test Desktop/：将Home目录下的2.test文件移动到Desktop中，移动文件夹是一样的操作
+
+  ![image-20260114160924561](images/image-20260114160924561.png)
+
+* mv改名，文件内容不变：mv one.txt demo.txt，想要覆盖文件时有提醒，在mv后面加上**-i**即可，会安全一些
+
+  ![image-20260122135325603](images/image-20260122135325603.png)
+
+* cat 1.test：查看文件内容，cat -b：空行不会编号，cat -n：都会编号
+
+  ![image-20260114155022734](images/image-20260114155022734.png)
+
+* more /etc/services：查看文件内容，可翻页查看，按【空格】翻页，按【q】退出查看
+
+  ![image-20260114155357486](images/image-20260114155357486.png)
+
+* grep：对文本文件进行模式查找，grep l 2.test：在文件中查找带有l字符的内容
+
+  ![image-20260122145308927](images/image-20260122145308927.png)
+
+* grep -n l 2.test：带行号查找
+
+  ![image-20260122145540431](images/image-20260122145540431.png)
+
+* grep -v l 2.test：反向查找
+
+  ![image-20260122145731722](images/image-20260122145731722.png)
+
+* grep -ni "hello world" 2.test：忽略大小写查找
+
+  ![image-20260122150050864](images/image-20260122150050864.png)
+
 * 
+
+* 
+
+* 
+
+* 
+
+  
+
+  
+
+
 
 
 
